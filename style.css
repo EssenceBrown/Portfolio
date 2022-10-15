@@ -21,10 +21,46 @@ body{
     background-size: cover;
     background-position: center;
 }
+.contact{
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.contact form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.contact form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 5px solid green;
+    outline: none;
+    border-radius: 50%;
+    font-size: 30%;
+}
+
+.contact form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    box-shadow: 0px 0px 5px rgb(238, 233, 233), 0px 0px 15px #858585;
+    font-size: 30%;
+}
 
 .container{
     padding: 10px 10%;
 }
+
 
 nav{
     display: flex;
@@ -34,7 +70,7 @@ nav{
 }
 
 .logo{
-    width: 140px;
+    width: 190px;
 }
 
 nav ul li{
@@ -42,23 +78,23 @@ nav ul li{
     list-style: none;
     margin: 10px 20px;
 }
-
+/* ----Home---abount---services---portfolio---contact------ */
 nav ul li a{
     color:green;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
     position: relative;
 }
 
 nav ul li a::after{
     content: "";
     width: 0%;
-    height: 3%;
+    height: 13%;
     background-color: rgb(241, 247, 247);
     position: absolute;
     left: 0;
     bottom: -6px;
-    transition: 0.5s
+    transition: 0.6s
 }
 
 nav ul li a:hover::after{
@@ -85,3 +121,76 @@ nav ul li a:hover::after{
     padding: 80px 0;
     color: green;
 }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+   .about-col-1{
+        flex-basis: 30%;
+   }
+
+   .about-col-1 img{
+        width: 100%;
+        border-radius: 15px;
+   }
+
+   .about-col-2{
+        flex-basis: 65%;
+   }
+
+   .sub-title{
+        font-size: 60px;
+        font-weight: 600;
+        color: green;
+        
+
+   }
+/*---------skills---------exp-------------edu */
+   .tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+   }
+
+   .tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+   }
+
+   .tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+   }
+
+   .tab-links.active-link::after{
+    width: 50%;
+   }
+
+   .tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+   }
+
+   .tab-contents ul li span{
+    color: white;
+    font-size: 14px;
+   }
+
+  .tab-contents{
+    display: none;
+  }
+
+  .tab-contents.active-tab{
+    display: block;
+  }
