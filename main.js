@@ -1,18 +1,17 @@
-console.log("hello world");
+//console.log("hello world");
 
-alert('test')
+//alert('test')
 
+function showContents(activeTab, contentsId){
+    let tabs = document.querySelectorAll('.btn');
+    let contents = document.querySelectorAll('.contents')
+    let i = 0;
+    while(i < tabs.length){
+        tabs[i].classList.remove('show');
+        contents[i].classList.remove('show');
+        i++
+    }
+    activeTab.classList.add('show');
+    document.getElementById(contentsId).classList.add('show');
+}
 
-
-
-// let tablinks = document.getElementsByClassName("tab-links");
-// let tabcontents = document.getElementsByClassName("tab-contents");
-
-// function opentab(tabname){
-//     for(tablink of tablinks){
-//         tablink.classlist.remove("active-link");
-//     }
-//     for(tabcontent of tabcontents){
-//         tabcontent.classlist.remove("active-tab");
-//     }
-// }
