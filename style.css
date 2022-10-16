@@ -149,7 +149,76 @@ nav ul li a:hover::after{
 
    }
 /*---------skills---------exp-------------edu */
-   .tab-titles{
+
+.tab{
+    position: relative;
+    width: 65%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 1px white;
+    display: flex;
+    margin: 30px 0 40px;
+}
+
+.tab .tabBtns{
+    flex-basis: 25%;
+    padding: 10px;
+    background-color: rgb(8, 99, 28) ;
+    border-right: 1px solid rgb(22, 247, 71);
+    color: black;
+
+}
+
+.tab .tabContents{
+    flex-basis: 75%;
+    background-image: linear-gradient(to right, rgb(220, 220, 235), rgb(54, 104, 39));
+    padding: 20px 30px 20px 40px;
+    font-size: 20px;
+    color:black
+}
+
+.tabContents h2{
+    padding-bottom: 10px;
+}
+
+.tabContents h3{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.tabContents .contents{
+    display: none;
+}
+
+.tabContents .show{
+    display: block;
+    
+}
+
+.tab .tabBtns .btn{
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.tab .tabBtns .btn:hover{
+    background-color: rgb(145, 197, 145);
+}
+
+.tabBtns .show{
+    background: rgb(151, 231, 162);
+}
+
+ 
+
+   /* .tab-titles{
     display: flex;
     margin: 20px 0 40px;
    }
@@ -193,4 +262,4 @@ nav ul li a:hover::after{
 
   .tab-contents.active-tab{
     display: block;
-  }
+  } */
