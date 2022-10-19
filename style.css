@@ -21,6 +21,8 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+ /* ---------------input your email ----------- */
 .contact{
     position: absolute;
     top: 80%;
@@ -78,7 +80,7 @@ nav ul li{
     list-style: none;
     margin: 10px 20px;
 }
-/* ----Home---abount---services---portfolio---contact------ */
+/* ----Home------abount------contact------ */
 nav ul li a{
     color:green;
     text-decoration: none;
@@ -99,6 +101,7 @@ nav ul li a::after{
 
 nav ul li a:hover::after{
     width: 100%;
+    
 }
 
 .header-text{

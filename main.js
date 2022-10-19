@@ -2,6 +2,13 @@
 
 //alert('test')
 
+
+let content1 = document.getElementById('')
+
+
+
+
+//  ------this section is the skills tab -----
 function showContents(activeTab, contentsId){
     let tabs = document.querySelectorAll('.btn');
     let contents = document.querySelectorAll('.contents')
