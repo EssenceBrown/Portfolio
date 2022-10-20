@@ -2,6 +2,7 @@
 //  --------------------------------------------------------------------this section is the skills tab ------------------------------------------------------------
 function showContents(activeTab, contentsId){
     let tabs = document.querySelectorAll('.btn');
+    console.log(tabs)
     let contents = document.querySelectorAll('.contents')
     let i = 0;
     while(i < tabs.length){

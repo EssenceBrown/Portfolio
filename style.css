@@ -326,7 +326,7 @@ color: rgb(10, 231, 21);
     transform: translateY(0);
   }
   
-  .btn {
+  .btn1 {
     padding: 0.6rem 1.3rem;
     background-color: rgb(196, 243, 204);
     border: 2px solid #fafafa;
@@ -340,7 +340,7 @@ color: rgb(10, 231, 21);
     margin: 0;
   }
   
-  .btn:hover {
+  .btn1:hover {
     background-color: transparent;
     color: rgb(247, 241, 241);
   }
@@ -571,7 +571,7 @@ color: rgb(10, 231, 21);
       padding: 0.45rem 1.2rem;
     }
   
-    .btn {
+    .btn1 {
       padding: 0.45rem 1.2rem;
     }
   }
