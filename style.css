@@ -139,7 +139,7 @@ color: rgb(10, 231, 21);
 
 .container4{
     position: relative; 
-    width: 95%;
+    width: 50%;
     height: 300px;
     overflow: hidden;
     border-radius: 60px;
@@ -202,6 +202,14 @@ color: rgb(10, 231, 21);
 .tabBtns .show{
     background: rgb(151, 231, 162);
 }
+
+img .img1{
+  max-width: 100%; 
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 /* ----------------------------------------------------------------contact me---------------------------------------------------- */
 .container5 {
   
