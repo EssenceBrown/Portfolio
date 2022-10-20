@@ -1,14 +1,5 @@
-//console.log("hello world");
 
-//alert('test')
-
-
-let content1 = document.getElementById('')
-
-
-
-
-//  ------this section is the skills tab -----
+//  --------------------------------------------------------------------this section is the skills tab ------------------------------------------------------------
 function showContents(activeTab, contentsId){
     let tabs = document.querySelectorAll('.btn');
     let contents = document.querySelectorAll('.contents')
@@ -22,8 +13,9 @@ function showContents(activeTab, contentsId){
     document.getElementById(contentsId).classList.add('show');
 }
 
-// this section is for the contact information 
-const inputs = document.querySelectorAll(".input");
+// ------------------------------------------------------------this section is for the contact information ----------------------------------------------
+
+let inputs = document.querySelectorAll(".input");
 
 function focusFunc() {
   let parent = this.parentNode;
