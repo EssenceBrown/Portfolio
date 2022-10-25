@@ -44,7 +44,7 @@ nav ul li{
     list-style: none;
     margin: 10px 20px;
 }
-/* -----------------------------Home---------------------------------------------------abount-----------------------------------------------contact--------------------------------------------- */
+/* -----------------------------Home---------------------------------------------------about-----------------------------------------------contact--------------------------------------------- */
 nav ul li a{
     color:green;
     text-decoration: none;
@@ -134,81 +134,29 @@ nav ul li a:hover::after{
    .about-col-2 h6 span{
 color: rgb(10, 231, 21);
    }
-/*----------------------------------------------------------skills---------------------------------------------exp--------------------------------edu ------------------------------*/
+/*----------------------------------------------------------skills----------------------------------------------------------------------------- ------------------------------*/
 
-
-.container4{
-    position: relative; 
-    width: 50%;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 60px;
-    box-shadow: 0px 4px 20px 1px white;
-    display: flex;
-    margin: 30px 0 40px;
+h2{
+  font-size: 40px;
+  color: #30ad45;
+  text-align: center;
 }
 
-.container4 .tabBtns{
-    flex-basis: 25%;
-    padding: 40px;
-    background-color: rgb(8, 99, 28) ;
-    border-right: 1px solid rgb(22, 247, 71);
-    color: black;
+.skillPics{
+  text-align: center;
 }
-
-.container4 .tabContents{
-    flex-basis: 75%;
-    background-image: linear-gradient(to right, rgb(226, 243, 230), rgb(54, 104, 39));
-    padding: 20px 30px 20px 40px;
-    font-size: 20px;
-    color:black
+.skills2{
+  text-align: center;
 }
-
-.tabContents h2{
-    padding-bottom: 10px;
-
+h3{
+  font-size: 40px;
+  color: #30ad45;
+  text-align: center;
 }
-
-.tabContents h3{
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-}
-
-.tabContents .contents{
-    display: none;
-}
-
-.tabContents .show{
-    display: block;
-    
-}
-
-.container4 .tabBtns .btn{
-    position: relative;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 10px 30px;
-    text-transform: uppercase;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.container4 .tabBtns .btn:hover{
-    background-color: rgb(145, 197, 145);
-}
-
-.tabBtns .show{
-    background: rgb(151, 231, 162);
-}
-
-img .img1{
-  max-width: 100%; 
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
+.columns {
+  margin-left: 30%;
+  list-style: none;
+  display: inline; }
 
 /* ----------------------------------------------------------------contact me---------------------------------------------------- */
 .container5 {
