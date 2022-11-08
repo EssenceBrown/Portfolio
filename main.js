@@ -1,13 +1,6 @@
 
 // ------------------------------------------------------------this section is for the contact information ----------------------------------------------
 
-function sendEmail(){
-  Email.send({
-   
-}).then(
-  message => alert("message has sent ")
-);
-}
 
 
 
